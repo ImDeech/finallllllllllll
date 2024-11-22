@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MG 4 EV Specifications</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Global Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      header {
+        background: #007bff;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      /* Responsive Container */
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #007bff;
+        margin-bottom: 20px;
+      }
+
+      .spec-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .spec-card {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        transition: transform 0.3s ease;
+      }
+
+      .spec-card:hover {
+        transform: scale(1.03);
+      }
+
+      .spec-card h3 {
+        margin-bottom: 10px;
+        color: #007bff;
+      }
+
+      .spec-card p {
+        margin: 5px 0;
+      }
+
+      .image-container img {
+        width: 100%;
+        border-radius: 8px;
+      }
+
+      /* Back Button */
+      .back-button {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        padding: 10px 20px;
+        color: white;
+        background: #007bff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+        width: 200px;
+        transition: background 0.3s ease;
+      }
+
+      .back-button:hover {
+        background: #0056b3;
+      }
+
+      /* Mobile Responsiveness */
+      @media (max-width: 768px) {
+        .spec-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>MG5GT</header>
+
+    <div class="container">
+      <h1>MG5GT</h1>
+
+      <!-- Image Section -->
+      <div class="image-container">
+        <img src="assets/mg-5-gt-color-450100.webp" alt="MG 4 EV" />
+      </div>
+
+      <!-- Specification Section -->
+      <section class="spec-grid">
+        <div class="spec-card">
+          <h3>Performance</h3>
+          <p><strong>DRIVING RANGE:</strong> 67 km</p>
+          <p><strong>POWER: </strong> 112 hp</p>
+          <p><strong>FUEL TYPE:</strong> Petrol</p>
+          <p><strong>ENGINE DISPLACEMENT:</strong> 1498 cc</p>
+          <p><strong>TORQUE:</strong> 150 Nm</p>
+        </div>
+
+        <div class="spec-card">
+          <h3>Capacity</h3>
+          <p><strong>FUEL TANK CAPACITY (litres):</strong> 45 L</p>
+          <p><strong>LENGTH:</strong> 4675 mm</p>
+          <p><strong>HEIGHT:</strong> 1473 mm</p>
+          <p><strong>SEATING CAPACITY:</strong> 5 Seats</p>
+          <p><strong>WIDTH:</strong> 1842 mm</p>
+          <p><strong>WHEEL BASE:</strong> 2680 mm</p>
+          <p><strong>GROUND CLEARANCE:</strong> 138 mm</p>
+        </div>
+
+        <div class="spec-card">
+          <h3>Suspension & Brakes</h3>
+          <p><strong>FRONT BRAKE TYPE:</strong> Ventilated Discs</p>
+          <p><strong>FRONT SUSPENSION:</strong> McPherson Strut</p>
+          <p><strong>REAR BRAKE TYPE:</strong> Discs</p>
+          <p><strong>REAR SUSPENSION:</strong> Torsion Beam</p>
+        </div>
+
+        <div class="spec-card">
+          <h3>Safety</h3>
+          <p><strong>Anti-Lock Braking System</strong></p>
+          <p><strong>EBD</strong></p>
+          <p><strong>Door Ajar Warning</strong></p>
+          <p><strong>Crash Sensor</strong></p>
+          <p><strong>Passenger Airbag</strong></p>
+        </div>
+
+        <div class="spec-card">
+          <h3>Security</h3>
+          <p><strong>Central Locking</strong></p>
+          <p><strong>Anti Theft Device</strong></p>
+          <p><strong>Engine Immobilizer</strong></p>
+          <p><strong>Power Door Locks</strong></p>
+          <p><strong>Anti-Theft Alarm</strong></p>
+        </div>
+
+        <div class="spec-card">
+          <h3>Seats & Upholstery</h3>
+          <p><strong>Fabric Upholstery</strong></p>
+          <p><strong>Adjustable Seats</strong></p>
+          <p><strong>Rear Seat Headrest</strong></p>
+          <p><strong>Height Adjustable Driver Seat</strong></p>
+        </div>
+      </section>
+
+      <!-- Back Button -->
+      <a href="Home.html#productsmenu" class="back-button">Back to Home</a>
+    </div>
+  </body>
+</html>
